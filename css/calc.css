@@ -1,0 +1,44 @@
+.calc_smart_house {	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	gap: 100px;
+	border: 1px solid red;
+}
+
+.selection_columns {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 10px;
+	border: 1px solid red;
+}
+
+.selection_columns p {
+	font-size: 100px;
+	border: 1px solid red;
+}
+
+.total_cost, .cost p {
+	font-size: 100px;
+	border: 1px solid red;
+}
+
+.btn-group {
+	border: 1px solid red;
+}
+
+.form-check {
+	border: 1px solid red;
+}
+
+.check_buttons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	border: 1px solid red;
+}
+
