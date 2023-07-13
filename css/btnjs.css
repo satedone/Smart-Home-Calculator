@@ -1,0 +1,23 @@
+.btnjs {
+	height: 600px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	gap: 40px;
+}
+
+.col1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 40px;
+
+}
+
+.number {
+	font-size: 150px;
+
+}
+
