@@ -1,11 +1,41 @@
-.calc_smart_house {	
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: row;
-	gap: 100px;
-	border: 1px solid red;
+.calc_smart_house {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 100px;
+  min-height: 100vh;
+  position: relative;
 }
+
+.calc_smart_house_background {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url("../img/sh_background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.calc_smart_house_content {
+  position: relative;
+  z-index: 1;
+  /* border: 1px solid red; */
+  border-radius: 15px;
+  padding: 20px;
+  background-color: aliceblue;
+
+}
+
+
+
+
+
 
 .selection_columns {
 	display: flex;
@@ -13,25 +43,24 @@
 	justify-content: center;
 	flex-direction: column;
 	gap: 10px;
-	border: 1px solid red;
-}
+	/* border: 1px solid red; */
 
+}
+.selection_columns h2 {
+	font-size: 36px;
+	/* border: 1px solid red; */
+	
+}
 .selection_columns p {
-	font-size: 100px;
-	border: 1px solid red;
-}
-
-.total_cost, .cost p {
-	font-size: 100px;
-	border: 1px solid red;
-}
-
-.btn-group {
-	border: 1px solid red;
+	font-size: 48px;
+	/* border: 1px solid red; */
+	
 }
 
 .form-check {
-	border: 1px solid red;
+	/* border: 1px solid red; */
+	padding-right: 15px;
+	margin-bottom: 0;
 }
 
 .check_buttons {
@@ -39,6 +68,6 @@
 	align-items: center;
 	justify-content: center;
 	flex-direction: row;
-	border: 1px solid red;
+	/* border: 1px solid red; */
+	line-height: 1.5;
 }
-
