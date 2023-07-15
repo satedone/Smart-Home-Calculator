@@ -1,0 +1,54 @@
+
+До цього пакету входить:
+Cервер на базі Mini PC;
+Система Home Assistant;
+Zigbee dongle CC2652;
+Карта будинку з активними іконками;
+4 датчику руху;
+8 реле світла;
+Підключення та монтаж.
+
+Серверна частина;
+Все світло в будинку стає розумним (не більше 30 реле);
+Багатошаровий дизайн будинку;
+4 датчики протику та головний кран;
+Повний контроль опалення;
+4 приводи штор;
+4 датчика температури та вологості;
+6 датчиков руху;
+Server UPS and POE Dongle;
+
+Персональний проект;
+Всі пристрої в AppleHome;
+Повний клімат-конроль;
+Індівідуальний підхід;
+3D візуалізація всіх кімнат;
+
+
+
+This package includes:
+Mini PC based server;
+Home Assistant system;
+Zigbee dongle CC2652;
+House map with active icons;
+4 motion detectors;
+8 light relays;
+Connection and installation.
+
+This package includes:
+Server part;
+All the lights in the house become smart (no more than 30 relays);
+Multi-layer home design;
+4 leakage sensors and a main valve;
+Full control of heating;
+4 curtain drives;
+4 temperature and humidity sensors;
+6 motion sensors;
+Server UPS and POE Dongle;
+
+Personal project;
+All devices in AppleHome;
+Full climate control;
+Individual approach;
+3D visualization of all rooms;
+

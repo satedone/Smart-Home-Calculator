@@ -115,7 +115,7 @@ imageToggle3.addEventListener("click", function() {
 imageToggle4.addEventListener("click", function() {
   isChecked4 = !isChecked4;
   if (isChecked4) {
-    imageToggleCost4 = 7000;
+    imageToggleCost4 = 2828;
     imageToggle4.classList.add("selected");
   } else {
     imageToggleCost4 = 0;
@@ -127,3 +127,48 @@ imageToggle4.addEventListener("click", function() {
 function updateTotalCost() {
   totalCostElement.innerText = totalCost + moveSensor + airSensor + tempSensor + smokeSensor + imageToggleCost1 + imageToggleCost2 + imageToggleCost3 + imageToggleCost4;
 }
+
+
+let textOfferMin = document.querySelector(".offer_text_min");
+let textOfferMed = document.querySelector(".offer_text_med");
+let textOfferMax = document.querySelector(".offer_text_max");
+
+
+let activeTextBlock = textOfferMed; // Початковий активний блок
+hideAllTextBlocks();
+btnradio1.addEventListener("change", () => {
+  if (btnradio1.checked) {
+    hideAllTextBlocks();
+    activeTextBlock = textOfferMin;
+    showActiveTextBlock();
+  }
+});
+
+btnradio2.addEventListener("change", () => {
+  if (btnradio2.checked) {
+    hideAllTextBlocks();
+    activeTextBlock = textOfferMed;
+    showActiveTextBlock();
+  }
+});
+
+btnradio3.addEventListener("change", () => {
+  if (btnradio3.checked) {
+    hideAllTextBlocks();
+    activeTextBlock = textOfferMax;
+    showActiveTextBlock();
+  }
+});
+
+function hideAllTextBlocks() {
+  textOfferMin.style.display = "none";
+  textOfferMed.style.display = "none";
+  textOfferMax.style.display = "none";
+}
+
+function showActiveTextBlock() {
+  activeTextBlock.style.display = "block";
+}
+
+// Показати початковий активний блок
+showActiveTextBlock();
