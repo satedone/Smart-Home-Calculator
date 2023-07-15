@@ -1,11 +1,11 @@
 .calc_smart_house {
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  gap: 100px;
+  flex-direction: column;
+  gap: 20px;
   min-height: 100vh;
   position: relative;
+  padding-top: 30px;
 }
 
 .calc_smart_house_background {
@@ -26,16 +26,9 @@
   position: relative;
   z-index: 1;
   /* border: 1px solid red; */
-  border-radius: 15px;
-  padding: 20px;
-  background-color: aliceblue;
-
+  width: 90%;
+  max-width: 700px;
 }
-
-
-
-
-
 
 .selection_columns {
 	display: flex;
@@ -44,14 +37,30 @@
 	flex-direction: column;
 	gap: 10px;
 	/* border: 1px solid red; */
+	border-radius: 15px;
+	padding: 40px;
+	background-color: rgba(255, 255, 255, 0.7);
 
 }
-.selection_columns h2 {
+h1 {
 	font-size: 36px;
+	font-weight: 600;
+	/* border: 1px solid red; */
+	background-color: rgba(255, 255, 255, 0.7);
+	border-radius: 15px;
+	padding: 10px;
+	width: 50%;
+	max-width: 600px;
+	text-align: center;
+}
+
+.calc_smart_house_content h2 {
+	font-size: 30px;
+	font-weight: 500;
 	/* border: 1px solid red; */
 	
 }
-.selection_columns p {
+.calc_smart_house_content p {
 	font-size: 48px;
 	/* border: 1px solid red; */
 	
@@ -65,9 +74,53 @@
 
 .check_buttons {
 	display: flex;
-	align-items: center;
-	justify-content: center;
 	flex-direction: row;
+	flex-wrap: wrap;
 	/* border: 1px solid red; */
 	line-height: 1.5;
+}
+
+.img_blocks img.selected {
+	opacity: 1;
+}
+
+.img_blocks {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	/* border: 1px solid red; */
+
+}
+
+.img_blocks img {
+	scale: 0.7;
+	opacity: 0.3;
+}
+
+.offer_details {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 10px;
+	/* border: 1px solid red; */
+	border-radius: 15px;
+	padding: 20px;
+	background-color: rgba(255, 255, 255, 0.7);
+	min-height: 250px;
+	width: 90%;
+	max-width: 700px;
+}
+
+.offer_text {
+	font-size: 24px;
+	font-weight: 500;
+	/* border: 1px solid red; */
+}
+
+.total_cost {
+	font-size: 48px;
+	font-weight: 600;
+	/* border: 1px solid red; */
 }

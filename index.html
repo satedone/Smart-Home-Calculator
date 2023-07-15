@@ -10,28 +10,21 @@
 <body>
 	<header></header>
 	<main>
-		<section class="btnjs">
-			<div class="col1">
-				<button id="btn1" type="button" class="btn btn-primary btn-lg">Number 1</button>
-				<button id="btn2" type="button" class="btn btn-secondary btn-lg">Number 2</button>
-			</div>
-			<div id="num" class="number">1</div>
-		</section>
-
 		<section class="calc_smart_house">
 			<div class="calc_smart_house_background"></div>
+			<h1>Smart Home</h1>
 			<div class="calc_smart_house_content">
 				<div class="selection_columns">
 					<h2>Choose an offer</h2>
 					<div class="btn-group" role="group" aria-label="Basic radio toggle button group">
 						<input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off">
-						<label class="btn btn-outline-primary" for="btnradio1">Small</label>
+						<label class="btn btn-outline-dark" for="btnradio1">Simplified</label>
 					
 						<input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" checked>
-						<label class="btn btn-outline-primary" for="btnradio2">Medium</label>
+						<label class="btn btn-outline-dark" for="btnradio2">Improved</label>
 					
 						<input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
-						<label class="btn btn-outline-primary" for="btnradio3">High</label>
+						<label class="btn btn-outline-dark" for="btnradio3">Exclusive</label>
 					</div>					
 					<div class="check_buttons">
 						<div class="form-check">
@@ -58,11 +51,21 @@
 								SMOKE SENSOR
 							</label>
 						</div>
+
 					</div>
-					<p id="total_cost" class="total_cost">2500</p>
+					<div class="img_blocks">
+						<img id="imageToggle1" src="img/defence_icon.png" alt="">
+						<img id="imageToggle2" src="img/install_icon.png" alt="">
+						<img id="imageToggle3" src="img/quality_icon.png" alt="">
+						<img id="imageToggle4" src="img/scaling_icon.png" alt="">
+					</div>
 				</div>
 			</div>			
-
+			<div class="offer_details">
+				<p class="offer_text">The full package includes server hardware and customization and the total cost is </p>
+				
+				<p id="total_cost" class="total_cost">2500</p>
+			</div>
 		
 		</section>	
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
