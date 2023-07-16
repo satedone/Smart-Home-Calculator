@@ -16,7 +16,7 @@ let smokeSensor = checkboxSmokeSensor.checked ? 1110 : 0;
 
 let totalCost = costOptions.medCost;
 
-let totalCostElement = document.getElementById("total_cost");
+
 
 checkboxMoveSensor.addEventListener("change", () => {
 	moveSensor = checkboxMoveSensor.checked ? 500 : 0;
@@ -172,3 +172,20 @@ function showActiveTextBlock() {
 
 // Показати початковий активний блок
 showActiveTextBlock();
+
+
+// document.getElementById("satedbtn").addEventListener("click", function () {
+//   document.querySelector(".total_cost").style.display = "none";
+// })
+
+let totalCostElement = document.getElementById("total_cost");
+
+// const satedbtnElement = document.getElementById("satedbtn");
+
+// satedbtnElement.addEventListener("click", function () {
+//   if (totalCostElement.style.display === "none") {
+//     totalCostElement.style.display = "inline";
+//   } else {
+//     totalCostElement.style.display = "none";
+//   }
+// });

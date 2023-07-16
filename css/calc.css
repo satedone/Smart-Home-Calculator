@@ -7,6 +7,15 @@
   position: relative;
   padding-top: 30px;
 }
+.btn-group {
+	align-items: center;	
+}
+
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+	font-weight: 700;
+	font-size: 140%;
+}
 
 .calc_smart_house_background {
   position: absolute;
@@ -17,7 +26,7 @@
   background-image: url("../img/sh_background.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   opacity: 0.5;
   z-index: -1;
 }
@@ -45,6 +54,8 @@
 h1 {
 	font-size: 36px;
 	font-weight: 600;
+	font-family: 'Lato', sans-serif;
+
 	/* border: 1px solid red; */
 	background-color: rgba(255, 255, 255, 0.7);
 	border-radius: 15px;
@@ -57,14 +68,43 @@ h1 {
 .calc_smart_house_content h2 {
 	font-size: 30px;
 	font-weight: 500;
+	line-height: 1.4;
+	font-family: 'Roboto', sans-serif;
 	/* border: 1px solid red; */
 	
 }
 .calc_smart_house_content p {
-	font-size: 48px;
+	font-size: 24px;
+	line-height: 1.4;
+	
 	/* border: 1px solid red; */
 	
 }
+
+.calc_smart_house_content li {
+	font-size: 20px;
+	line-height: 1.4;
+	list-style-type: circle;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	/* border: 1px solid red; */
+}
+
+@media (min-width: 600px) {
+	.calc_smart_house_content li {
+		margin-left: 40px;
+	}
+}
+
+
+.calc_smart_house_content span {
+	font-size: 16px;
+	line-height: 1.4;
+	font-family: 'Raleway', sans-serif;
+
+	/* border: 1px solid red; */
+}
+
 
 .form-check {
 	/* border: 1px solid red; */
@@ -113,13 +153,29 @@ h1 {
 	max-width: 700px;
 }
 
-.offer_text {
+.offer_details h2 {
 	font-size: 24px;
-	font-weight: 500;
+	line-height: 1.4;
+	font-family: 'Raleway', sans-serif;
+
+	/* border: 1px solid red; */
+}
+
+.total_cost_content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
 	/* border: 1px solid red; */
 }
 
 .total_cost {
+	font-size: 48px;
+	font-weight: 600;
+	/* border: 1px solid red; */
+}
+
+.cur {
 	font-size: 48px;
 	font-weight: 600;
 	/* border: 1px solid red; */
