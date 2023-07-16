@@ -82,11 +82,11 @@ h1 {
 }
 
 .calc_smart_house_content li {
-	font-size: 20px;
+	font-size: 16px;
 	line-height: 1.4;
 	list-style-type: circle;
-	margin-bottom: 5px;
 	margin-left: 10px;
+	font-family: 'Raleway', sans-serif;
 	/* border: 1px solid red; */
 }
 
@@ -134,8 +134,15 @@ h1 {
 }
 
 .img_blocks img {
-	scale: 0.7;
+	transform: scale(0.7);
 	opacity: 0.3;
+	transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.img_blocks img:hover {
+	transform: scale(1);
+	opacity: 1;
+	transition: transform 0.5s ease, opacity 0.5s ease;
 }
 
 .offer_details {
@@ -148,7 +155,6 @@ h1 {
 	border-radius: 15px;
 	padding: 20px;
 	background-color: rgba(255, 255, 255, 0.7);
-	min-height: 250px;
 	width: 90%;
 	max-width: 700px;
 }
@@ -180,3 +186,4 @@ h1 {
 	font-weight: 600;
 	/* border: 1px solid red; */
 }
+

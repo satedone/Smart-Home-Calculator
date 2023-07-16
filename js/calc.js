@@ -1,7 +1,7 @@
 const costOptions = {
-	minCost: 1500,
-	medCost: 2500,
-	maxCost: 5000,
+	minCost: 2500,
+	medCost: 4500,
+	maxCost: 6900,
 };
 
 let checkboxMoveSensor = document.querySelector(".flexCheckMove");
@@ -9,32 +9,32 @@ let checkboxAirSensor = document.querySelector(".flexCheckAir");
 let checkboxTempSensor = document.querySelector(".flexCheckTemp");
 let checkboxSmokeSensor = document.querySelector(".flexCheckSmoke");
 
-let moveSensor = checkboxMoveSensor.checked ? 500 : 0;
-let airSensor = checkboxAirSensor.checked ? 780 : 0;
-let tempSensor = checkboxTempSensor.checked ? 190 : 0;
-let smokeSensor = checkboxSmokeSensor.checked ? 1110 : 0;
+let moveSensor = checkboxMoveSensor.checked ? 1000 : 0;
+let airSensor = checkboxAirSensor.checked ? 1000 : 0;
+let tempSensor = checkboxTempSensor.checked ? 300 : 0;
+let smokeSensor = checkboxSmokeSensor.checked ? 200 : 0;
 
 let totalCost = costOptions.medCost;
 
 
 
 checkboxMoveSensor.addEventListener("change", () => {
-	moveSensor = checkboxMoveSensor.checked ? 500 : 0;
+	moveSensor = checkboxMoveSensor.checked ? 1000 : 0;
 	updateTotalCost();
 });
 
 checkboxAirSensor.addEventListener("change", () => {
-	airSensor = checkboxAirSensor.checked ? 780 : 0;
+	airSensor = checkboxAirSensor.checked ? 1000 : 0;
 	updateTotalCost();
 });
 
 checkboxTempSensor.addEventListener("change", () => {
-	tempSensor = checkboxTempSensor.checked ? 190 : 0;
+	tempSensor = checkboxTempSensor.checked ? 300 : 0;
 	updateTotalCost();
 });
 
 checkboxSmokeSensor.addEventListener("change", () => {
-	smokeSensor = checkboxSmokeSensor.checked ? 1110 : 0;
+	smokeSensor = checkboxSmokeSensor.checked ? 200 : 0;
 	updateTotalCost();
 });
 
@@ -79,7 +79,7 @@ let imageToggleCost4 = 0;
 imageToggle1.addEventListener("click", function() {
   isChecked1 = !isChecked1;
   if (isChecked1) {
-    imageToggleCost1 = 3000;
+    imageToggleCost1 = 1000;
     imageToggle1.classList.add("selected");
   } else {
     imageToggleCost1 = 0;
@@ -91,7 +91,7 @@ imageToggle1.addEventListener("click", function() {
 imageToggle2.addEventListener("click", function() {
   isChecked2 = !isChecked2;
   if (isChecked2) {
-    imageToggleCost2 = 4000;
+    imageToggleCost2 = 1000;
     imageToggle2.classList.add("selected");
   } else {
     imageToggleCost2 = 0;
@@ -103,7 +103,7 @@ imageToggle2.addEventListener("click", function() {
 imageToggle3.addEventListener("click", function() {
   isChecked3 = !isChecked3;
   if (isChecked3) {
-    imageToggleCost3 = 5000;
+    imageToggleCost3 = 1000;
     imageToggle3.classList.add("selected");
   } else {
     imageToggleCost3 = 0;
@@ -115,7 +115,7 @@ imageToggle3.addEventListener("click", function() {
 imageToggle4.addEventListener("click", function() {
   isChecked4 = !isChecked4;
   if (isChecked4) {
-    imageToggleCost4 = 2828;
+    imageToggleCost4 = 1000;
     imageToggle4.classList.add("selected");
   } else {
     imageToggleCost4 = 0;
