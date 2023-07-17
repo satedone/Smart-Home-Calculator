@@ -187,3 +187,33 @@ h1 {
 	/* border: 1px solid red; */
 }
 
+
+
+
+
+
+
+.page { 
+	padding: 3.125rem;
+}
+.form {
+	max-width: 18.75rem;
+	margin: 0 auto;
+	display: grid;
+	gap: 0.9375rem;
+ }
+.form__input {
+	width: 100%;
+	padding: 0.625rem;
+	height: 2.5rem;
+ }
+ textarea.form__input {
+
+ }
+.form__button {
+	background-color: #edce9f;
+	height: 2.5rem;
+	border-radius: 10px;
+	text-transform: uppercase;
+	
+ }
