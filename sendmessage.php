@@ -7,7 +7,7 @@
 	}
 	if (trim($content)) {
 		$content = "<b>Message from Site: </b>\n" . $content;
-		$apiToken = "1128078370:AAF4I8hjwY2YM4UPnKFdw1rJHslvu-39Eaw";
+		$apiToken = "6381689532:AAGU990_BJjArTxUji-LwFgUQw8yPYM0o8U";
 		$data = [
 			'chat_id' => '@satedbots',
 			'text' => $content,
