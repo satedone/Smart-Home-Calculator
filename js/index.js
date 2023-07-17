@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
       import('./btnjs.js'),
       import('./calc.js'),
       import('./telegram.js')
-    ]).then(([btnjsModule, calcModule]) => {
+    ]).then(([btnjsModule, calcModule, telegramModule]) => {
     });
   });
 

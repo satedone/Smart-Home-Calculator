@@ -9,7 +9,7 @@
 		$content = "<b>Message from Site: </b>\n".$content;
 		$apiToken = "1128078370:AAF4I8hjwY2YM4UPnKFdw1rJHslvu-39Eaw";
 		$data = [
-			'chat_id' => '@calculatorsated',
+			'chat_id' => '@satedbots',
 			'text' => $content,
 			'parse_mode' => 'HTML'
 		];
