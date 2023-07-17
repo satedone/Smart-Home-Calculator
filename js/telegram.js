@@ -1,4 +1,5 @@
-// use strict
+"use strict"
+
 
 const form = document.querySelector('.form');
 form.addEventListener('submit', function (e){
@@ -9,7 +10,7 @@ form.addEventListener('submit', function (e){
 async function sendMessage(form) {
 	const formData = new FormData(form);
 	if (formData) {
-		const url = 'sendmessage.php'
+		const url = './sendmessage.php';
 		const response = await fetch(url, {
 			method: "POST", 
 			body: formData

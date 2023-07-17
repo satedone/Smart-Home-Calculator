@@ -208,12 +208,11 @@ h1 {
 	height: 2.5rem;
  }
  textarea.form__input {
-
+	height: 6.25rem;
  }
 .form__button {
 	background-color: #edce9f;
 	height: 2.5rem;
 	border-radius: 10px;
 	text-transform: uppercase;
-	
  }
