@@ -15,12 +15,11 @@ async function sendMessage(form) {
 			method: "POST", 
 			body: formData
 		});
-		if (response.ok) {
+		if (response.ok){
 			form.reset();
-			alert('Form sent');
-		} else {
+			alert('Form sent!');
+		}else{
 			alert('Error');
 		}
-
 	}
 }
